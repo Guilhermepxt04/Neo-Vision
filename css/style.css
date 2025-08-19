@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Alumni Sans;
+    src: url(fonts/AlumniSans-VariableFont_wght.ttf);
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+    color: #fff;
+    font-family: Alumni Sans;
+
+}
+
+@media (max-width: 1000px) {
+
+    
+    nav a {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 4em
+    }
+
+}
+
+
+main {
+
+    width: 100%;
+    height: 964px;
+    background: linear-gradient(to bottom left, #989898, #4C4C4C );
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-left: 55%;
+    gap: 2.5%;
+
+}
+
+nav a {
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 2em;
+
+}
+
+p#logo {
+
+    position: absolute;
+    left: 5%;
+    top: 2.5%;
+    font-size: 1.9em;
+    font-weight: bolder;
+
+}
+
+section#conteudo_home {
+
+    margin-left: 1%; 
+    width: 90%; 
+    height: 90%;
+    display: flex;
+
+}
+
+section#conteudo_home h1 {
+
+    display: flex;
+    padding-top: 1%;
+    font-size: 20em;
+    line-height: 0.8em;
+    color: #D0D0D0;
+
+}
+
+section#conteudo_home img {
+
+    position: absolute;
+    width: 44%;
+    left: 35%;
+    top: 20%;
+    
+}
+
+section#conteudo_home div {
+
+    margin-left: 22%;
+    margin-top: 9%;
+
+
+}
+
+section#conteudo_home h2 {
+
+    color: black;
+    font-weight: bolder;
+    margin-top: 10%;
+    margin-left: 40%;
+    font-size: 7em;
+    line-height: 0.65em;
+
+}
+
+section#conteudo_home p {
+
+    width: 50%;
+    font-weight: bolder;
+    margin-left: 42%;
+    margin-top: 0.5%;
+    font-size: 1.5em;
+
+}
