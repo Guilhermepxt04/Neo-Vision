@@ -14,23 +14,10 @@
 
 }
 
-@media (max-width: 1000px) {
-
-    
-    nav a {
-        font-size: 1em;
-    }
-    h2 {
-        font-size: 4em
-    }
-
-}
-
-
 main {
 
     width: 100%;
-    height: 964px;
+    height: auto;
     background: linear-gradient(to bottom left, #989898, #4C4C4C );
 
 }
@@ -67,7 +54,7 @@ section#conteudo_home {
 
     margin-left: 1%; 
     width: 90%; 
-    height: 90%;
+    height: 906px;
     display: flex;
 
 }
@@ -91,11 +78,11 @@ section#conteudo_home img {
     
 }
 
-section#conteudo_home div {
+div#slogan_home {
 
     margin-left: 22%;
     margin-top: 9%;
-
+    width: 40%;
 
 }
 
@@ -112,10 +99,17 @@ section#conteudo_home h2 {
 
 section#conteudo_home p {
 
-    width: 50%;
     font-weight: bolder;
     margin-left: 42%;
     margin-top: 0.5%;
     font-size: 1.5em;
+
+}
+
+section#comentarios {
+
+    width: 100%;
+    height: 965px;
+    background-color: red;
 
 }
