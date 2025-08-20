@@ -1,8 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&display=swap');
-
 @font-face {
-    
+
     font-family: Alumni Sans;
     src: url(fonts/AlumniSans-VariableFont_wght.ttf);
     
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Alumni Sans;
+    position: relative;
+    color: #fff;
+
+}
+
+main {
+
+    width: 100%;
+    height: auto;
+
+}
+
+
+nav {
+
+    background-color: #4c4c4c;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+nav a {
+
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+
+}
+
+nav a:hover {
+
+    color: #000;
+    transition: 1s all;
+
+}
+
+
+#conteudo_home {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to bottom left, #989898, #4C4C4C );
+
+}
+
+#titulo_home {
+
+    text-align: center;
+    font-size: 6em;
+    line-height: 120%;
+
+}
+
+#slogan h2 {
+
+    font-size: 4em;
+    color: #000;
+
+}
+
+#slogan p {
+
+    font-size: 2em;
+    font-weight: bolder;
+
+
 }
