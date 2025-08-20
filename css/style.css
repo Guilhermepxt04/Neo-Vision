@@ -33,7 +33,9 @@ nav {
     justify-content: flex-end; 
     padding-top: 1%;
     gap: 2%;
-    z-index: 3;
+    z-index: 1;
+    background-color: #4C4C4C;
+
     
 }
 
@@ -42,14 +44,14 @@ nav a {
     text-decoration: none;
     font-weight: bolder;
     font-size: 2em;
+    margin-right: 4%;
 
 }
 
-p#logo {
+nav p {
 
     position: absolute;
     left: 5%;
-    top: 0.7%;
     z-index: 3;
     font-size: 1.9em;
     font-weight: bolder;
@@ -59,31 +61,54 @@ p#logo {
 section#conteudo_home {
 
     margin-left: 1%; 
-    width: 90%; 
-    height: 964px;
+    width: 100%; 
+    height: auto;
     display: flex;
+    flex-direction: row;
 
 }
 
-section#conteudo_home h1 {
+div#titulo_home {
 
-    display: flex;
-    padding-top: 1%;
-    margin-top: 6%;
-    font-size: 18vw;
-    line-height: 0.8em;
+    width: 30%;
+    height: auto;
+    margin-top: 8%;
+    padding-bottom: 1.5%;
+
+}
+
+div#titulo_home h1 {
+
+    padding-bottom: 8%;
+    font-size: clamp(4rem, 4em + 15vw, 19em);
+    line-height: 0.7em;
     color: #D0D0D0;
 
 }
 
-section#conteudo_home img {
+@media (max-width: 1248px) {
 
-    position: absolute;
-    width: 44%;
-    left: 35%;
-    top: 20%;
-    
+    div#titulo_home {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        
+
+    }
+
+    div#titulo_home h1{
+
+        gap: 20%;
+        font-size: clamp(4em, 8em + 2vw, 8em);
+        margin-left: 10%;
+
+    }
+
 }
+
 
 div#slogan_home {
 
@@ -336,11 +361,6 @@ section#comentarios {
   color: black;
   font-size: 20px;
   margin-right: 5px;
-}
-
-.div-pequena .local{ 
-    
-   
 }
 
 .estrelas {
