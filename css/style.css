@@ -25,6 +25,7 @@ main {
 
 }
 
+/* BARRA DE NAVEGACAO DO SITE*/
 nav {
 
     position: fixed;
@@ -48,6 +49,26 @@ nav a {
 
 }
 
+@media (max-width: 570px) {
+
+    nav a {
+
+        font-size: 1.4em;
+
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    nav a {
+
+        font-size: 1em;
+
+    }
+
+}
+
 nav a:hover {
 
     color: black;
@@ -55,93 +76,44 @@ nav a:hover {
 
 }
 
-nav p {
+/*PAGINA INICIAL DO SITE*/
 
-    position: absolute;
-    left: 5%;
-    z-index: 3;
-    font-size: 1.9em;
-    font-weight: bolder;
+section#home {
 
-}
-
-section#conteudo_home {
-
-    margin-left: 1%; 
     width: 100%; 
     height: auto;
     display: flex;
     flex-direction: row;
-
 }
 
-div#titulo_home {
+div#conteudo_home {
 
-    width: 30%;
+    width: 40%;
     height: auto;
     margin-top: 8%;
-    padding-bottom: 1.5%;
-
+    padding-bottom: 2.3%;
 }
 
+/* tITULO DA PAGINA INICIAL DO SITE ( NEO VISION MAX) */
 div#titulo_home h1 {
 
     padding-bottom: 8%;
-    font-size: clamp(4rem, 4em + 15vw, 19em);
+    font-size: clamp(1em, 4em + 15vw, 19em);
     line-height: 0.7em;
     color: #D0D0D0;
-
 }
 
-@media (max-width: 1248px) {
-
-    div#titulo_home {
-
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        text-align: center;
-        align-items: center;
-        
-
-    }
-
-    div#titulo_home h1{
-
-        gap: 20%;
-        font-size: clamp(4em, 8em + 2vw, 8em);
-        margin-left: 10%;
-
-    }
-
-}
+@media (max-width: 780px) {
 
 
-div#slogan_home {
+  #titulo_home {
 
-    margin-left: 22%;
-    margin-top: 9%;
-    width: 40%;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.3em;
+    gap: 10px;
 
-}
-
-section#conteudo_home h2 {
-
-    color: black;
-    font-weight: bolder;
-    margin-top: 10%;
-    margin-left: 40%;
-    font-size: 7em;
-    line-height: 0.65em;
-
-}
-
-section#conteudo_home p {
-
-    font-weight: bolder;
-    margin-left: 42%;
-    margin-top: 0.5%;
-    font-size: 1.5em;
+  }
 
 }
 
@@ -154,8 +126,6 @@ section#comentarios {
     background: linear-gradient(to bottom, #808080, #E4E4E4);
 
 }
-
-
 
 
 #titulos{ 
