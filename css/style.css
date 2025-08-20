@@ -48,6 +48,13 @@ nav a {
 
 }
 
+nav a:hover {
+
+    color: black;
+    transition: 1s all;
+
+}
+
 nav p {
 
     position: absolute;
