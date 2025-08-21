@@ -46,6 +46,22 @@
 
     }
 
+    #oculos {
+
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    transform: rotate(-15deg);
+    
+
+    }
+
+    #oculos img {
+
+    width: 60%;
+
+    }
+
     #slogan {
 
         margin-top: 15%;
