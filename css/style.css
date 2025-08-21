@@ -124,14 +124,14 @@ button {
 }
 
 #titulo_comentario h1{ 
-    color: rgb(76, 76, 76);
+    color: white    ;
     font-size: 42px;
     text-align: center;
     margin-bottom: 5px;
 }
 
 #titulo_comentario h3{
-    color:rgb(76, 76, 76);
+    color: #3a3a3a;
     font-size: 25px;
     font-weight: 500;
     text-align: center;
