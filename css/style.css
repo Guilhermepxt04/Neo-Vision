@@ -61,14 +61,19 @@ nav a:hover {
 
 }
 
+#home {
 
-#conteudo_home {
+    width: 100%;
+    background: linear-gradient(to bottom left, #989898, #4C4C4C );
+
+}
+
+#conteudo_alinhado {
 
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
-    background: linear-gradient(to bottom left, #989898, #4C4C4C );
+    
 
 }
 
@@ -98,14 +103,19 @@ nav a:hover {
 
 } 
 
+#botao_azul {
+
+    display: flex;
+    justify-content: center;
+
+}
+
 button {
 
     background: linear-gradient(to right, #87B6C0, #6EE6FF);
     color: #000;
     font-size: 2em;
-    width: 50%;
     height: 15vh;
-    margin: auto;
     border-radius: 20px;
     font-weight: bold;
     margin-bottom: 10px;

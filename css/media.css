@@ -27,6 +27,13 @@
 
     }
 
+    #conteudo_alinhado {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
     #titulo_home {
 
         width: 20%;
@@ -39,6 +46,7 @@
 
         margin-top: 10%;
         margin-left: 40%;
+        height: 40%;
 
     }
 
