@@ -1,0 +1,26 @@
+@media (min-width: 1000px) {
+
+    #conteudo_home {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    }
+
+    #slogan {
+
+        margin-top: 20%;
+        margin-left: 40%;
+
+    }
+
+    #titulo_home {
+
+        width: 20%;
+        font-size: 11em;
+        margin-top: 5%;
+
+    }
+
+}
