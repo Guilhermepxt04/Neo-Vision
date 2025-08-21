@@ -8,10 +8,22 @@
 
     }
 
-    #slogan {
+    nav {
 
-        margin-top: 20%;
-        margin-left: 40%;
+        justify-content: flex-end;
+        gap: 3%;
+
+    }
+
+    nav a {
+
+        margin-right: 2%;
+
+    }
+
+    nav p {
+
+        display: 1;
 
     }
 
@@ -20,6 +32,25 @@
         width: 20%;
         font-size: 11em;
         margin-top: 5%;
+
+    }
+
+    #slogan {
+
+        margin-top: 10%;
+        margin-left: 40%;
+
+    }
+
+    #slogan h2 {
+
+        font-size: 5em;
+
+    }
+
+    #slogan p {
+
+        font-size: 2em;
 
     }
 

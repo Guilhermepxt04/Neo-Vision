@@ -40,6 +40,12 @@ nav {
 
 }
 
+nav p {
+
+    display: none;
+
+}
+
 nav a {
 
     text-decoration: none;
