@@ -122,7 +122,6 @@ button {
 
 #titulo_comentario {
     margin-top: 10px ;
-    
     width: 100%;
     display: flex;
     justify-content: center;
@@ -134,7 +133,26 @@ button {
     font-size: 42px;
     text-align: center;
     margin-bottom: 5px;
+    justify-content: center;
+    flex-direction: row;
 }
+#Titulo_principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#Titulo_principal .titulo_cor{ 
+    color: #68CBE0;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 5px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
 
 #titulo_comentario h3{
     color: #3a3a3a;
