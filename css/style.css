@@ -140,14 +140,14 @@ button {
 }
 
 #titulo_comentario h1{ 
-    color: rgb(76, 76, 76);
+    color: white    ;
     font-size: 42px;
     text-align: center;
     margin-bottom: 5px;
 }
 
 #titulo_comentario h3{
-    color:rgb(76, 76, 76);
+    color: #3a3a3a;
     font-size: 25px;
     font-weight: 500;
     text-align: center;
@@ -174,7 +174,7 @@ button {
     background-color: white;
     width: 50%;
     height: 175px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
@@ -218,7 +218,7 @@ button {
     background-color: white;
     width: 35%;
     height: 175px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px ;
     border-radius: 20px;
@@ -260,8 +260,7 @@ button {
 }
 .div_grande i {
     color: black;
-    margin-top: 75px;
-    margin-left: 100px;
+    margin-left: 132px;
     
 }
 
@@ -280,6 +279,51 @@ button {
     color: black;
     font-size: 12px;
 }
+
+.div_grande .local2 {
+    color: black;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.div_pequena h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.div_pequena .nome_pequeno { 
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.div_grande .comentario { 
+    color: #000;
+    display: flex;
+    justify-content: left;
+    margin-left: 8px;
+    margin-top: 7px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.div_grande .comentario2 { 
+    color: #000;
+    display: flex;
+    justify-content: left;
+    margin-left: 8px;
+    margin-top: 10px;
+    font-size: 13px;
+    margin-right: 5px;
+   
+}
+
 
 
   
