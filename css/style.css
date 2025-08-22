@@ -55,8 +55,9 @@ nav p {
 nav a {
 
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: bolder;
+    margin-right: auto;
 
 }
 
@@ -96,7 +97,7 @@ nav a:hover {
 #oculos {
 
     position: absolute;
-    top: 40%;
+    top: 43%;
     left: 35%;
     transform: rotate(-15deg);
     
@@ -104,7 +105,7 @@ nav a:hover {
 
 #oculos img {
 
-    width: 110%;
+    width: 100%;
 }
 
 #slogan h2 {
@@ -130,7 +131,7 @@ nav a:hover {
 
 }
 
-button {
+#button_home {
 
     background: linear-gradient(to right, #87B6C0, #6EE6FF);
     color: #000;
