@@ -51,6 +51,7 @@
     position: absolute;
     top: 20%;
     right: 10%;
+    left: unset;
     transform: rotate(-15deg);
     
 
