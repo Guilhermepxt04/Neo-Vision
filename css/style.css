@@ -377,13 +377,14 @@ button {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 4px 4px  #a8a3a3a4;
+    margin-top: 20px;
 }  
 #titulo_faleconosco{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    padding-top: 60px;
 }
 
 #titulo_normal{
@@ -395,16 +396,25 @@ button {
     font-size: 96px;
 }
 #dados_formulario{
-    width: 50%;
+    position: relative;
+    width: 49%;
+    margin: auto;
     height: 669px;
-    margin: 70px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     float: left;
-    
 
+}
+#dados_formulario h2{
+    background-image: linear-gradient(to right, #000, #b4b4b4);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
 }
 
 #button_fale_conosco{
@@ -414,6 +424,7 @@ button {
 
 }
 .form{
+    position: relative;
     width: 100%;
     font-size: 32px;
 }
@@ -430,16 +441,17 @@ button {
 .form label{
     color: #000;
     line-height: 1;
-    margin-bottom: 0.5rem;    
+    margin-bottom: 0.8rem;    
 }
 .form input,
 .form textarea{
     font:inherit;
     margin-bottom: 1rem;
     border-radius: 10px;
+    width: 99%;
     border: 1px solid transparent;
     background-color: #eaeaea;
-    padding-left: 15px;
+    padding-left: 9px;
     color: #000;
     transition: border-color, box-shadow 0.2s;
 }
@@ -456,6 +468,12 @@ button {
     box-shadow: 0 0 0 0 3px #4dc8ff;
 }
 
-
+#imagem_formulario{
+    width: 40%;
+    background-color: #000;
+    height: 805px;
+    float: right;
+    border-radius: 10px;
+}
   
 
