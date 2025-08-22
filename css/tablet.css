@@ -1,4 +1,10 @@
-@media (min-width: 1000px) {
+@media (min-width: 481px) {
+
+    
+}
+
+
+@media (min-width: 721px) {
 
     #conteudo_home {
 
@@ -96,3 +102,4 @@
     }
 
 }
+    
