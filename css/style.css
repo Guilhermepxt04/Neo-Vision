@@ -175,7 +175,7 @@ nav a:hover {
     gap: 10px;
 }
 
-#Titulo_principal .titulo_cor{ 
+#Titulo_principal span{ 
     color: #68CBE0;
     font-size: 42px;
     text-align: center;
@@ -198,7 +198,7 @@ nav a:hover {
 
 /*Section Divs*/
 
-#sec_cima {
+#fila1_comentarios {
     
     width: 100%;
     height: auto;
@@ -210,7 +210,7 @@ nav a:hover {
     
 }
 
-#sec_cima .div_grande {
+#fila1_comentarios .div_feedback {
     background-color: white;
     width: 50%;
     height: 175px;
@@ -221,7 +221,7 @@ nav a:hover {
     
 }
 
-#sec_cima .div_pequena {
+#fila1_comentarios .div_info {
     background-color: white;
     width: 35%;
     height: 175px;
@@ -232,7 +232,7 @@ nav a:hover {
     
 }
 
-#sec_baixo {
+#fila2_comentarios {
     
     width: 100%;
     height: auto;
@@ -243,7 +243,7 @@ nav a:hover {
     gap: 10px;      
 }
 
-#sec_baixo .div_grande {
+#fila2_comentarios .div_feedback {
     background-color: white;
     width: 50%;
     height: 175px;
@@ -254,7 +254,7 @@ nav a:hover {
     
 }
 
-#sec_baixo .div_pequena {
+#fila2_comentarios .div_info {
     background-color: white;
     width: 35%;
     height: 175px;
@@ -265,7 +265,7 @@ nav a:hover {
     
 }
 
-.div_grande img{
+.div_feedback img{
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -292,41 +292,41 @@ nav a:hover {
 
   /*Comentario grande - div-grande*/
 
-.div_pequena img {
+.div_info img {
     width: 100%;
     height: 87px;
     border-top-left-radius:20px ;
     border-top-right-radius:20px ;
 }
-.div_grande i {
+.div_feedback i {
     color: black;
     margin-left: 132px;
     
 }
 
-.div_grande .nome {
+.div_feedback .nome {
     color: black;
     margin-top: 15px;
     margin-left: 10px;
 }
-.div_grande .nome2 {
+.div_feedback .nome2 {
     color: black;
     margin-top: 15px;
     margin-left: 15px;
 }
 
-.div_grande .local {
+.div_feedback .local {
     color: black;
     font-size: 12px;
 }
 
-.div_grande .local2 {
+.div_feedback .local2 {
     color: black;
     font-size: 12px;
     margin-top: 5px;
 }
 
-.div_pequena h1 {
+.div_info h1 {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
@@ -336,14 +336,14 @@ nav a:hover {
     margin-top: 5px;
 }
 
-.div_pequena .nome_pequeno { 
+.div_info .nome_pequeno { 
     color: black;
     display: flex;
     justify-content: center;
 }
 
 
-.div_grande .comentario { 
+.div_feedback .comentario { 
     color: #000;
     display: flex;
     justify-content: left;
@@ -353,7 +353,7 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-.div_grande .comentario2 { 
+.div_feedback .comentario2 { 
     color: #000;
     display: flex;
     justify-content: left;
@@ -363,5 +363,7 @@ nav a:hover {
     margin-right: 5px;
    
 }
+
+
   
 
