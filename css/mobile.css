@@ -1,3 +1,5 @@
+/* tela de 390px */
+
 @font-face {
 
     font-family: Alumni Sans;
@@ -46,7 +48,7 @@ nav {
 
 }
 
-nav p {
+nav p { 
 
     display: none;
 
@@ -55,9 +57,8 @@ nav p {
 nav a {
 
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bolder;
-    margin-right: auto;
 
 }
 
@@ -71,7 +72,8 @@ nav a:hover {
 #home {
 
     width: 100%;
-    background: linear-gradient(to bottom left, #989898, #4C4C4C );
+    background-image: url("../images/background_home.png");
+    height: 100vh;
 
 }
 
@@ -87,30 +89,18 @@ nav a:hover {
 
 #titulo_home {
 
-    margin-top: 10%;
+    margin-top: 5vh;
     text-align: left;
-    font-size: 5em;
+    font-size: 6em;
     line-height: 120%;
     margin-bottom: 10%;
 
 }
 
-#oculos {
-
-    position: absolute;
-    top: 43%;
-    left: 35%;
-    transform: rotate(-15deg);
-    
-}
-
-#oculos img {
-
-    width: 100%;
-}
 
 #slogan h2 {
 
+    margin-top: 45%;
     font-size: 3.1em;
     color: #000;
     font-style: italic;
@@ -119,6 +109,7 @@ nav a:hover {
 
 #slogan p {
 
+    width: 100%;
     font-size: 1.4em;
     font-weight: bolder;
     margin-bottom: 2.5%;
@@ -127,6 +118,7 @@ nav a:hover {
 
 #botao_azul {
 
+    margin-top: 3vh;
     display: flex;
     justify-content: center;
 
@@ -134,13 +126,14 @@ nav a:hover {
 
 #button_home {
 
-    background: linear-gradient(to right, #87B6C0, #6EE6FF);
+
     color: #000;
     font-size: 2em;
-    height: 15vh;
+    height: 10vh;
     border-radius: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
