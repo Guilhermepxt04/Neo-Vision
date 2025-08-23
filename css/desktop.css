@@ -216,6 +216,18 @@
         display: inline-block;
    }
 
+    #fila3_comentarios .div_feedback {
+    display: none;
+    }
+
+    #fila3_comentarios .div_info {
+    display: none;
+    }
+
+
+
+    
+
     /*Formulario Satisfacao*/
     #fale_conosco{
         position: relative;

@@ -171,28 +171,10 @@
 }
 
 #fila3_comentarios .div_feedback {
-    background-color: white;
-    width: 45%;
-    height: 150px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
-    float: left;
     display: none;
 }
 
 #fila3_comentarios .div_info {
-    background-color: white;
-    width: 35%;
-    height: 150px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px ;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
-    float: left;
     display: none;
 }
 

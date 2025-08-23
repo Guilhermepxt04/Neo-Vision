@@ -343,8 +343,8 @@ nav a:hover {
 
 #fila3_comentarios .div_feedback {
     background-color: white;
-    width: 45%;
-    height: 120px;
+    width: 50%;
+    height: 170px;
     margin-left: 20px;
     margin-top: 10px;
     border-radius: 20px;
@@ -354,8 +354,8 @@ nav a:hover {
 
 #fila3_comentarios .div_info {
     background-color: white;
-    width: 40%;
-    height: 120px;
+    width: 35%;
+    height: 170px;
     margin-left: 20px;
     margin-top: 10px;
     border-radius: 20px;
