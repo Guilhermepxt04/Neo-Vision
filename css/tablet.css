@@ -105,7 +105,8 @@
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 20px;
-        display: inline-block;
+        box-shadow: 10px, 10px, 10px rgb(0,0,0,0.385);
+        display: block;
    }
 
    #fila2_comentarios {
@@ -142,7 +143,8 @@
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 20px;
-        display: inline-block;
+        box-shadow: 10px, 10px, 10px rgb(0,0,0,0.385);
+        display: block;
    }
 
    /*classes dentros das divs*/
