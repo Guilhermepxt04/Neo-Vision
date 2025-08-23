@@ -4,8 +4,8 @@
     /*Home*/
     #home {
 
-        background-image: url(../images/Group_43.png);
-        background-repeat: no-repeat;
+        background: linear-gradient(to bottom left , #4C4C4C, #828282);
+
 
     }
 
@@ -17,6 +17,15 @@
     margin-bottom: 10%;
 
     }
+
+    #oculos {
+
+        position: absolute;
+        display: block;
+
+
+    }
+
 
 /*Titulos*/
     #comentarios { 
