@@ -1,20 +1,19 @@
-
-@media (min-width: 820px) and (max-width: 1279px){
+@media (min-width: 820px) and (max-width: 1279px) {
 
     /*Home*/
     #home {
 
-        background: linear-gradient(to bottom left , #4C4C4C, #828282);
+        background: linear-gradient(to bottom left, #4C4C4C, #828282);
 
 
     }
 
     #titulo_home {
 
-    text-align: center;
-    font-size: 6em;
-    line-height: 120%;
-    margin-bottom: 10%;
+        text-align: center;
+        font-size: 6em;
+        line-height: 120%;
+        margin-bottom: 10%;
 
     }
 
@@ -39,68 +38,152 @@
     }
 
 
-/*Titulos*/
-    #comentarios { 
-      background: linear-gradient(to bottom, #fffefe, #3d4acc 114%);
-      width: 100%;
-      height: 100vh;
+    /*Parte Beneficios*/
+
+    #beneficios {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/background_beneficios_tablet.png);
+        background-size: cover;
+    }
+
+    #container_inicial {
+        width: 90%;
+        height: 14vh;
+        text-align: center;
+        margin: auto;
+    }
+
+    #container_1 {
+        width: 100%;
+        height: 25vh;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 5%;
+    }
+
+    #container_2 {
+        width: 100%;
+        height: 25vh;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 5%;
+    }
+
+    .quadrado {
+        width: 20%;
+        height: 25vh;
+        background-color: #d9d9d9;
+        border-radius: 5%;
+        text-align: center;
+    }
+
+    .quadrado h1 {
+        color: #000;
+        font-size: 2.3vh;
+        margin-right: 3%;
+        margin-left: 3%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .quadrado h4 {
+        color: #363636;
+        font-size: 2vh;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+
+    .icones {
+        margin-top: 0.8vh;
+    }
+
+    #titulo_beneficios {
+        font-size: 3.0vh;
+        padding-top: 10%;
+    }
+
+    #titulo_beneficios h1 {
+        color: #000;
+    }
+
+    #branco {
+        color: #fff;
+    }
+
+
+
+    /*Titulos*/
+    #comentarios {
+        background: linear-gradient(to bottom, #fffefe, #3d4acc 114%);
+        width: 100%;
+        height: 100vh;
     }
 
     #titulo_comentario {
-    
+
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
 
-   #titulo_comentario h1{ 
-    color: rgb(175, 175, 175);
-    font-size: 6vh;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    justify-content: center;
-    flex-direction: row;
-}
-#Titulo_principal {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-}
+    #titulo_comentario h1 {
+        color: rgb(175, 175, 175);
+        font-size: 6vh;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        justify-content: center;
+        flex-direction: row;
+    }
 
-#Titulo_principal span{ 
-    color: #68CBE0;
-    font-size: 6vh;
-    text-align: center;
-    margin-bottom: 5px;
-    justify-content: center;
-    flex-direction: row;
-    font-weight: 900;
-}
+    #Titulo_principal {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #Titulo_principal span {
+        color: #68CBE0;
+        font-size: 6vh;
+        text-align: center;
+        margin-bottom: 5px;
+        justify-content: center;
+        flex-direction: row;
+        font-weight: 900;
+    }
 
 
 
-#titulo_comentario h3{
-    color: rgb(175, 175, 175);  
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-}
+    #titulo_comentario h3 {
+        color: rgb(175, 175, 175);
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
 
     #fila1_comentarios {
-    
+
         width: 100%;
         height: auto;
         display: flex;
-        justify-content: flex-start; /* alinha no início */
-        align-items: flex-start; /* alinha em cima */
+        justify-content: flex-start;
+        /* alinha no início */
+        align-items: flex-start;
+        /* alinha em cima */
         flex-direction: row;
-        gap: 10px;/* espaço entre os blocos */
+        gap: 10px;
+        /* espaço entre os blocos */
 
     }
 
@@ -108,7 +191,7 @@
         background-color: white;
         width: 40%;
         height: 215px;
-    
+
     }
 
     #fila1_comentarios .div_info {
@@ -116,37 +199,40 @@
         width: 25%;
         height: 215px;
         float: left;
-           
+
     }
 
-   #fila1_comentarios .div_feedback2 {
+    #fila1_comentarios .div_feedback2 {
         background-color: white;
         width: 25%;
         height: 215px;
         color: black;
-        margin-left:10px;
+        margin-left: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 20px;
-        box-shadow: 5px, 5px, 10px rgb(0, 0,0, 0.385);
+        box-shadow: 5px, 5px, 10px rgb(0, 0, 0, 0.385);
         display: block;
-   }
+    }
 
-   #fila2_comentarios {
+    #fila2_comentarios {
         width: 100%;
         height: auto;
         display: flex;
-        justify-content: flex-start; /* alinha no início */
-        align-items: flex-start; /* alinha em cima */
-        flex-direction: row;/* lado a lado */
-        gap: 10px;  
-   }
-  
-   #fila2_comentarios .div_feedback {
+        justify-content: flex-start;
+        /* alinha no início */
+        align-items: flex-start;
+        /* alinha em cima */
+        flex-direction: row;
+        /* lado a lado */
+        gap: 10px;
+    }
+
+    #fila2_comentarios .div_feedback {
         background-color: white;
         width: 40%;
         height: 215px;
-    
+
     }
 
     #fila2_comentarios .div_info {
@@ -154,7 +240,7 @@
         width: 25%;
         height: 215px;
         float: left;
-           
+
     }
 
     #fila2_comentarios .div_feedback2 {
@@ -162,51 +248,51 @@
         width: 25%;
         height: 215px;
         color: black;
-        margin-left:10px;
+        margin-left: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 20px;
-        box-shadow: 5px, 5px, 10px rgb(0, 0,0, 0.385);
+        box-shadow: 5px, 5px, 10px rgb(0, 0, 0, 0.385);
         display: block;
-   }
+    }
 
-   #fila3_comentarios {
-    
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    flex-direction: row;
-    gap: 10px;
-    display: block;
-}
+    #fila3_comentarios {
 
-#fila3_comentarios .div_feedback {
-    display: none;
-}
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 10px;
+        display: block;
+    }
 
-#fila3_comentarios .div_info {
-    display: none;
-}
+    #fila3_comentarios .div_feedback {
+        display: none;
+    }
 
-
-   /*classes dentros das divs*/
+    #fila3_comentarios .div_info {
+        display: none;
+    }
 
 
-   .div_feedback2 img{ 
+    /*classes dentros das divs*/
+
+
+    .div_feedback2 img {
         width: 40px;
         height: 40px;
         display: block;
-   }
+    }
 
-   .estrelas2 {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 65px;
-    display: block;
-    
-  }
+    .estrelas2 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 65px;
+        display: block;
+
+    }
 
 
 
@@ -214,7 +300,7 @@
 
 
     /*Formulario Satisfacao*/
-    #fale_conosco{
+    #fale_conosco {
         position: relative;
         width: 100%;
         height: auto;
@@ -224,7 +310,7 @@
         justify-content: space-around;
     }
 
-    #titulo_faleconosco{
+    #titulo_faleconosco {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -234,18 +320,18 @@
         margin-bottom: 20px;
     }
 
-    #titulo_normal{
+    #titulo_normal {
         font-size: 40px;
         color: #000;
 
     }
 
-    #titulo_acessibilidade{
+    #titulo_acessibilidade {
         font-size: 40px;
         color: #fff;
     }
 
-    #conteudo_formulario{
+    #conteudo_formulario {
         position: relative;
         width: 75%;
         height: 666px;
@@ -255,21 +341,23 @@
         border-radius: 10px 10px 0 0;
         display: flex;
         align-items: start;
-        justify-content:start;
+        justify-content: start;
         flex-direction: column;
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 20px;
         padding-top: 40px;
     }
-    #container_icones_imagem{
+
+    #container_icones_imagem {
         position: relative;
         display: flex;
         flex-direction: row;
     }
-    #conteudo_formulario h2{
+
+    #conteudo_formulario h2 {
         background-image: linear-gradient(to right, #000, #4d4c4c);
-        -webkit-background-clip: text; 
+        -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         font-size: 31.5px;
@@ -277,12 +365,12 @@
         margin-bottom: 50px;
     }
 
-    #icones_contatos_preto{
+    #icones_contatos_preto {
         display: none;
     }
 
-    
-    #container_contatos{
+
+    #container_contatos {
         position: relative;
         margin-left: 7.5%;
         width: 50%;
@@ -292,11 +380,12 @@
         box-shadow: 4px 2px 4px #4C4C4C;
         display: flex;
         align-items: start;
-        justify-content:start;
+        justify-content: start;
         flex-direction: column;
         float: left;
     }
-    #contatos_brancos_1{
+
+    #contatos_brancos_1 {
         position: relative;
         width: 100%;
         height: 90px;
@@ -306,7 +395,8 @@
         align-items: center;
         justify-content: space-around;
     }
-    #contatos_brancos_2{
+
+    #contatos_brancos_2 {
         position: relative;
         width: 100%;
         height: 90px;
@@ -316,7 +406,8 @@
         align-items: center;
         justify-content: space-around;
     }
-    .logos{
+
+    .logos {
         position: relative;
         text-align: center;
         height: 90px;
@@ -327,12 +418,14 @@
         justify-content: center;
         background-color: #000;
     }
-    .info{
+
+    .info {
         position: relative;
         display: flex;
         font-size: 23.9px;
     }
-    #container_imagem_formulario{
+
+    #container_imagem_formulario {
         position: relative;
         width: 35%;
         height: 298px;
@@ -340,7 +433,8 @@
         background-color: #000;
         display: block;
     }
-    .imagem_formulario{
+
+    .imagem_formulario {
         position: relative;
         display: block;
         box-shadow: 4px 2px 4px #4C4C4C;
@@ -349,12 +443,12 @@
         border-radius: 0 0 10px 0;
     }
 
-    .img_icone{
+    .img_icone {
         width: 100%;
         height: 100%;
     }
 
-    .form{
+    .form {
         position: relative;
         width: 100%;
         font-size: 31px;
@@ -367,28 +461,28 @@
     .form label,
     .form input,
     .form textarea,
-    .form button{
+    .form button {
         display: block;
         width: 100%;
     }
 
-    .form input{
+    .form input {
         height: 60px;
         width: 98%;
     }
 
-    .form label{
+    .form label {
         color: #000;
         line-height: 1;
         margin-bottom: 0.2rem;
     }
 
     .form input,
-    .form textarea{
+    .form textarea {
         font: inherit;
         margin-bottom: 1rem;
         border-radius: 4.557px;
-        
+
         border: 1px solid transparent;
         background-color: #eaeaea;
         color: #000;
@@ -396,7 +490,7 @@
         transition: border-color, box-shadow 0.2s;
     }
 
-    .form textarea{
+    .form textarea {
         height: 120px;
         width: 98%;
         resize: vertical;
@@ -405,31 +499,26 @@
     .form input:hover,
     .form input:focus,
     .form textarea:hover,
-    .form textarea:focus{
+    .form textarea:focus {
         outline: none;
         border-color: #3ebcf7;
         box-shadow: 0 0 0 0 3px #0a5b6b;
     }
-    
-    #button_fale_conosco{
+
+    #button_fale_conosco {
         width: 100%;
         height: 96px;
         background-color: #000;
         border-radius: 4.556px;
         font-size: 30px;
     }
-    #button_fale_conosco img{
+
+    #button_fale_conosco img {
         display: none;
     }
-    #container_imagem_desktop{
+
+    #container_imagem_desktop {
         display: none;
     }
 
-    }
-
-    
-    
-
-
-
-
+}
