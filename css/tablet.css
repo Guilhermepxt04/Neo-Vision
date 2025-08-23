@@ -26,6 +26,18 @@
 
     }
 
+    #slogan h2 {
+
+        font-size: 3.5em;
+
+    }
+
+    #botao_branco {
+
+        margin-top: 4vh;
+
+    }
+
 
 /*Titulos*/
     #comentarios { 
