@@ -151,6 +151,24 @@
 
 @media (min-width: 820px) and (max-width: 1279px){
 
+    /*Home*/
+    #home {
+
+        background-image: url(../images/Group_43.png);
+        background-repeat: no-repeat;
+
+    }
+
+    #titulo_home {
+
+    text-align: center;
+    font-size: 6em;
+    line-height: 120%;
+    margin-bottom: 10%;
+
+}
+
+
     /*Formulario Satisfacao*/
     #fale_conosco{
         position: relative;
