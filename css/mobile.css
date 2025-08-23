@@ -447,7 +447,7 @@ nav a:hover {
 #conteudo_formulario{
     position: relative;
     width: 80%;
-    height: 485PX;
+    height: 485px;
     margin: auto;
     background-color: #fff;
     box-shadow: 4px 2px 4px #4C4C4C;
@@ -546,6 +546,12 @@ nav a:hover {
 #container_imagem_formulario{
     display: none;
 }
+.imagem_formulario{
+    display: none;
+}
 #container_contatos{
+    display: none;
+}
+#button_fale_conosco img{
     display: none;
 }

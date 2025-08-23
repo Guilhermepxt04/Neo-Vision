@@ -1,4 +1,4 @@
-@media (min-width: 820px) and (max-width: 1280px){
+@media (min-width: 820px) and (max-width: 1279px){
 
     /*Formulario Satisfacao*/
     #fale_conosco{
@@ -8,6 +8,7 @@
         background-color: #68CBE0;
         display: flex;
         flex-direction: column;
+        padding: 10px;
     }
 
     #titulo_faleconosco{
@@ -75,6 +76,7 @@
         height: 298px;
         border-radius: 0 0 0 10px;
         background-color: #000;
+        box-shadow: 4px 2px 4px #4C4C4C;
         display: flex;
         align-items: start;
         justify-content:start;
@@ -124,9 +126,12 @@
         border-radius: 10px 10px 10px 10px;
         background-color: #000;
         float: left;
+        display: block;
     }
-    #imagem_formulario{
+    .imagem_formulario{
         position: relative;
+        display: block;
+        box-shadow: 4px 2px 4px #4C4C4C;
         width: 100%;
         height: 100%;
         border-radius: 0 0 10px 0;
@@ -200,6 +205,12 @@
         background-color: #000;
         border-radius: 4.556px;
         font-size: 30px;
+    }
+    #button_fale_conosco img{
+        display: none;
+    }
+    #container_imagem_desktop{
+        display: none;
     }
 }
 
