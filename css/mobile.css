@@ -134,13 +134,20 @@ nav a:hover {
 #beneficios{
     width: 100%;
     height: 100vh;
-    background-image: url(../images/background_beneficios.svg);
+    background-image: url(../images/background_beneficios.png);
     background-size: cover;
+}
+
+#container_inicial{
+    width: 90%;
+    height: 14vh;
+    text-align: center;
+    margin: auto;
 }
 
 #container_1{
     width: 100%;
-    height: 166.75px;
+    height: 25vh;
     float: left;
     display: flex;
     justify-content: space-around;
@@ -150,7 +157,7 @@ nav a:hover {
 
 #container_2{
     width: 100%;
-    height: 166.75px;
+    height: 25vh;
     float: left;
     display: flex;
     justify-content: space-around;
@@ -158,15 +165,9 @@ nav a:hover {
     padding-top: 5%;
 }
 
-#imagem_pessoa{
-    width: 100%;
-    height: 333.5px;
-    clear: left;
-}
-
 .quadrado{
-    width: 35%;
-    height: 156px;
+    width: 40%;
+    height: 23vh;
     background-color: #d9d9d9;
     border-radius: 5%;
     text-align: center;
@@ -174,19 +175,36 @@ nav a:hover {
 
 .quadrado h1{
     color: #000;
-    font-size: 2.5vh;
-    margin-right: 2%;
-    margin-left: 2%;
+    font-size: 2.3vh;
+    margin-right: 3%;
+    margin-left: 3%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.quadrado h3{
+.quadrado h4{
     color: #363636;
-    font-size: 2.0vh;
+    font-size: 2vh;
     margin-right: 5%;
     margin-left: 5%;
     margin-top: 2%;
+}
+
+.icones{
+    margin-top: 0.8vh;
+}
+
+#titulo_beneficios{
+    font-size: 3.0vh;
+    padding-top: 5%;
+}
+
+#titulo_beneficios h1{
+    color: #000;
+}
+
+#branco{
+    color: #fff;
 }
 
 
