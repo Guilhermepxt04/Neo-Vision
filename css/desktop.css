@@ -94,6 +94,9 @@
         width: 40%;
 
     }
+    #container_imagem_formulario{
+        display: none;
+    }
 
 }
     

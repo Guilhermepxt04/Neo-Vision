@@ -469,7 +469,13 @@ nav a:hover {
     font-size: 20px;
     text-align: center;
 }
-#icones_contato{
+#contatos_brancos_1{
+    display: none;
+}
+#contatos_brancos_2{
+    display: none;
+}
+#icones_contatos_preto{
     width: 100%;
     height: 62px;
     display: flex;
@@ -499,6 +505,7 @@ nav a:hover {
 }
 .form input{
     height: 34px;
+    width: 97%;
 }
 .form label{
     color: #000;
@@ -510,7 +517,6 @@ nav a:hover {
     font: inherit;
     margin-bottom: 1rem;
     border-radius: 4.557px;
-    width: 95%;
     border: 1px solid transparent;
     background-color: #eaeaea;
     color: #000;
@@ -519,6 +525,7 @@ nav a:hover {
 }
 .form textarea{
     height: 69px;
+    width: 97%;
     resize: vertical;
 }
 .form input:hover,
@@ -535,4 +542,10 @@ nav a:hover {
     background-color: #000;
     border-radius: 4.556px;
     font-size: 20px;
+}
+#container_imagem_formulario{
+    display: none;
+}
+#container_contatos{
+    display: none;
 }
