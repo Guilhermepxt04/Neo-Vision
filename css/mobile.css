@@ -1,3 +1,5 @@
+
+
 /* tela de 390px */
 
 @font-face {
@@ -75,6 +77,7 @@ nav a:hover {
     background-image: url("../images/background_home.png");
     height: 100vh;
 
+
 }
 
 #conteudo_alinhado {
@@ -143,7 +146,7 @@ nav a:hover {
 
 #beneficios{
     width: 100%;
-    height: 667px;
+    height: 100vh;
     background-image: url(../images/background_beneficios.svg);
     background-size: cover;
 }
@@ -205,12 +208,13 @@ nav a:hover {
 
 /*Titulos*/
 #comentarios { 
-    background: linear-gradient(to bottom, #A3A3A3, #E4E4E4 94%);
+    background: linear-gradient(to bottom, #c9c9c9, #E4E4E4 94%);
     width: 100%;
+    height: 100vh;
 }
 
 #titulo_comentario {
-    margin-top: 10px ;
+    
     width: 100%;
     display: flex;
     justify-content: center;
@@ -219,8 +223,9 @@ nav a:hover {
 
 #titulo_comentario h1{ 
     color: white    ;
-    font-size: 42px;
+    font-size: 6vh;
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 5px;
     justify-content: center;
     flex-direction: row;
@@ -234,7 +239,7 @@ nav a:hover {
 
 #Titulo_principal span{ 
     color: #68CBE0;
-    font-size: 42px;
+    font-size: 6vh;
     text-align: center;
     margin-bottom: 5px;
     justify-content: center;
@@ -275,7 +280,7 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
-    
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
 }
 
 #fila1_comentarios .div_info {
@@ -286,7 +291,7 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 10px ;
     border-radius: 20px;
-    
+     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
 }
 
 #fila2_comentarios {
@@ -297,7 +302,8 @@ nav a:hover {
     justify-content: flex-start; 
     align-items: flex-start; 
     flex-direction: row;
-    gap: 10px;      
+    gap: 10px; 
+         
 }
 
 #fila2_comentarios .div_feedback {
@@ -308,6 +314,7 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
     
 }
 
@@ -319,7 +326,7 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 10px ;
     border-radius: 20px;
-    
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
 }
 
 .div_feedback img{
@@ -327,14 +334,14 @@ nav a:hover {
     height: 40px;
     border-radius: 100%;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
     float: left;
-    border: 1px solid black;
+    
 }
 
 .estrelas {
     font-size: 20px;
-    margin-top: 18px;
+    margin-top: 10px;
     margin-left: 65px;
     
   }
@@ -349,17 +356,13 @@ nav a:hover {
 
   /*Comentario grande - div-grande*/
 
-.div_info img {
+.div_info img { /*div-foto fundo-info*/
     width: 100%;
     height: 87px;
     border-top-left-radius:20px ;
     border-top-right-radius:20px ;
 }
-.div_feedback i {
-    color: black;
-    margin-left: 132px;
-    
-}
+
 
 .div_feedback .nome {
     color: black;
@@ -372,16 +375,27 @@ nav a:hover {
     margin-left: 15px;
 }
 
-.div_feedback .local {
-    color: black;
+.div_feedback .comentario { 
+    color: #000;
+    display: flex;
+    justify-content: left;
+    margin-left: 8px;
+    margin-top: 7px;
     font-size: 12px;
+    margin-bottom: 15px;
 }
 
-.div_feedback .local2 {
-    color: black;
+.div_feedback .comentario2 { 
+    color: #000;
+    display: flex;
+    justify-content: left;
+    margin-left: 8px;
+    margin-top: 10px;
     font-size: 12px;
-    margin-top: 5px;
+    margin-right: 5px;
+   
 }
+
 
 .div_info h1 {
     color: black;
@@ -400,34 +414,40 @@ nav a:hover {
 }
 
 
-.div_feedback .comentario { 
-    color: #000;
-    display: flex;
-    justify-content: left;
-    margin-left: 8px;
-    margin-top: 7px;
-    font-size: 15px;
-    margin-bottom: 15px;
-}
+ .div_feedback2 img{ 
+        width: 40px;
+        height: 40px;
+        display: none;
+   }
 
-.div_feedback .comentario2 { 
-    color: #000;
-    display: flex;
-    justify-content: left;
-    margin-left: 8px;
+   .estrelas2 {
+    font-size: 20px;
     margin-top: 10px;
-    font-size: 13px;
-    margin-right: 5px;
+    margin-left: 65px;
+    display: none;
+    
+  }
+
    
-}
+    
+   
+  
+
+
+
 
 /*Foumulario Satisfacao*/
   
 #fale_conosco{
     position: relative;
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color: #68CBE0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #titulo_faleconosco{
@@ -458,7 +478,7 @@ nav a:hover {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 20px;
-    padding-top: 5px ;
+    padding-top: 5px;
 
 }
 #conteudo_formulario h2{
@@ -476,12 +496,30 @@ nav a:hover {
     display: none;
 }
 #icones_contatos_preto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#alinhamento_logos_formulario{
     width: 100%;
     height: 62px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 
+}
+.logos_pretos{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 .img_icone{
     width: 100%;
@@ -544,6 +582,9 @@ nav a:hover {
     font-size: 20px;
 }
 #container_imagem_formulario{
+    display: none;
+}
+#container_imagem_desktop{
     display: none;
 }
 .imagem_formulario{

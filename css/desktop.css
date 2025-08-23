@@ -1,4 +1,6 @@
+
 @media (min-width: 1280px) {
+
 
     #conteudo_home {
 
@@ -98,6 +100,136 @@
         display: none;
     }
 
+
+
+
+/*Titulos*/
+    #comentarios { 
+      background: linear-gradient(to bottom, #c9c9c9, #E4E4E4 94%);
+      width: 100%;
+      height: 100vh;
+    }
+
+    #titulo_comentario {
+    
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #titulo_comentario h1{ 
+        color: white    ;
+        font-size: 8vh;
+        text-align: center;
+        margin-bottom: 5px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    
+    #Titulo_principal {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #Titulo_principal span{ 
+        color: #68CBE0;
+        font-size: 8vh;
+        text-align: center;
+        margin-bottom: 5px;
+        justify-content: center;
+        flex-direction: row;
+    }  
+    
+    #titulo_comentario h3{
+        color: #ffffff;
+        font-size: 5vh;
+        font-weight: 500;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+
+    #fila1_comentarios {
+    
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start; /* alinha no início */
+        align-items: flex-start; /* alinha em cima */
+        flex-direction: row;
+        gap: 10px;/* espaço entre os blocos */
+
+    }
+
+    #fila1_comentarios .div_feedback {
+        background-color: white;
+        width: 40%;
+        height: 215px;
+    
+    }
+
+    #fila1_comentarios .div_info {
+        background-color: white;
+        width: 25%;
+        height: 215px;
+        float: left;
+           
+    }
+
+   #fila1_comentarios .div_feedback2 {
+        background-color: white;
+        width: 25%;
+        height: 215px;
+        color: black;
+        margin-left:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        display: inline-block;
+   }
+
+   #fila2_comentarios {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start; /* alinha no início */
+        align-items: flex-start; /* alinha em cima */
+        flex-direction: row;/* lado a lado */
+        gap: 10px;  
+   }
+  
+   #fila2_comentarios .div_feedback {
+        background-color: white;
+        width: 40%;
+        height: 215px;
+    
+    }
+
+    #fila2_comentarios .div_info {
+        background-color: white;
+        width: 25%;
+        height: 215px;
+        float: left;
+           
+    }
+
+    #fila2_comentarios .div_feedback2 {
+        background-color: white;
+        width: 25%;
+        height: 215px;
+        color: black;
+        margin-left:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        display: inline-block;
+   }
+
     /*Formulario Satisfacao*/
     #fale_conosco{
         position: relative;
@@ -106,6 +238,7 @@
         background-color: #68CBE0;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
     }
 
     #titulo_faleconosco{
@@ -136,7 +269,7 @@
         margin: auto;
         background-color: #fff;
         box-shadow: 4px 2px 4px #4C4C4C;
-        border-radius: 10px 10px 0 0;
+        border-radius: 10px 10px 10px 10px;
         display: flex;
         align-items: start;
         justify-content:space-around;
@@ -147,9 +280,7 @@
         padding-top: 40px;
     }
     #container_icones_imagem{
-        position: relative;
-        display: flex;
-        flex-direction: row;
+        display: none;
     }
     #conteudo_formulario h2{
         background-image: linear-gradient(to right, #000, #4d4c4c);
@@ -173,10 +304,42 @@
         width: 100%;
         height: 62px;
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #alinhamento_logos_formulario{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .logos_pretos{
+         position: relative;
+        text-align: center;
+        height: 50px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .infos{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+        font-weight: 500;
+        color: #000;
     }
     #icones_contatos_preto h3{
         color: #000;
+        padding-bottom: 40px;
         font-size: 48px;
         
     }
@@ -189,21 +352,9 @@
     #contatos_brancos_2{
         display: none;
     }
-    #alinhamento_logos_formulario{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .info{
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #000;
-        font-size: 15px;
-        padding-top: 5px;
-    }
+    
     #container_imagem_desktop{
+        display: block;
         position: relative;
         width: 100%;
         height: 618px;
@@ -229,16 +380,6 @@
     .img_icone{
         width: 100%;
         height: 100%;
-    }
-    .logos{
-        position: relative;
-        height: 150px;
-        width: 100%;
-        background-color: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
         
     .form{
@@ -313,5 +454,13 @@
     #button_fale_conosco img{
         display: block;
     }
+
 }
+    
+    
+
+
+
+
+
     

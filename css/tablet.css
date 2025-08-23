@@ -1,3 +1,154 @@
+
+@media (min-width: 800px) and (max-width: 1279px){
+
+
+/*Titulos*/
+    #comentarios { 
+      background: linear-gradient(to bottom, #c9c9c9, #E4E4E4 94%);
+      width: 100%;
+      height: 100vh;
+    }
+
+    #titulo_comentario {
+    
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #titulo_comentario h1{ 
+        color: white    ;
+        font-size: 8vh;
+        text-align: center;
+        margin-bottom: 5px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    
+    #Titulo_principal {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    #Titulo_principal span{ 
+        color: #68CBE0;
+        font-size: 8vh;
+        text-align: center;
+        margin-bottom: 5px;
+        justify-content: center;
+        flex-direction: row;
+    }  
+    
+    #titulo_comentario h3{
+        color: #ffffff;
+        font-size: 5vh;
+        font-weight: 500;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+
+    #fila1_comentarios {
+    
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start; /* alinha no início */
+        align-items: flex-start; /* alinha em cima */
+        flex-direction: row;
+        gap: 10px;/* espaço entre os blocos */
+
+    }
+
+    #fila1_comentarios .div_feedback {
+        background-color: white;
+        width: 40%;
+        height: 215px;
+    
+    }
+
+    #fila1_comentarios .div_info {
+        background-color: white;
+        width: 25%;
+        height: 215px;
+        float: left;
+           
+    }
+
+   #fila1_comentarios .div_feedback2 {
+        background-color: white;
+        width: 25%;
+        height: 215px;
+        color: black;
+        margin-left:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        display: inline-block;
+   }
+
+   #fila2_comentarios {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start; /* alinha no início */
+        align-items: flex-start; /* alinha em cima */
+        flex-direction: row;/* lado a lado */
+        gap: 10px;  
+   }
+  
+   #fila2_comentarios .div_feedback {
+        background-color: white;
+        width: 40%;
+        height: 215px;
+    
+    }
+
+    #fila2_comentarios .div_info {
+        background-color: white;
+        width: 25%;
+        height: 215px;
+        float: left;
+           
+    }
+
+    #fila2_comentarios .div_feedback2 {
+        background-color: white;
+        width: 25%;
+        height: 215px;
+        color: black;
+        margin-left:10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        display: inline-block;
+   }
+
+   /*classes dentros das divs*/
+
+
+   .div_feedback2 img{ 
+        width: 40px;
+        height: 40px;
+        display: block;
+   }
+
+   .estrelas2 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 65px;
+    display: block;
+    
+  }
+
+  
+    
+
 @media (min-width: 820px) and (max-width: 1279px){
 
     /*Home*/
@@ -26,7 +177,7 @@
         background-color: #68CBE0;
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        justify-content: space-around;
     }
 
     #titulo_faleconosco{
@@ -53,7 +204,7 @@
     #conteudo_formulario{
         position: relative;
         width: 75%;
-        height: 666PX;
+        height: 666px;
         margin: auto;
         background-color: #fff;
         box-shadow: 4px 2px 4px #4C4C4C;
@@ -143,7 +294,6 @@
         height: 298px;
         border-radius: 10px 10px 10px 10px;
         background-color: #000;
-        float: left;
         display: block;
     }
     .imagem_formulario{
@@ -230,7 +380,12 @@
     #container_imagem_desktop{
         display: none;
     }
+
+    }
 }
+    
+    
+
 
 
 
