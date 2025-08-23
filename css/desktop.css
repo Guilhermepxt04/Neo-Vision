@@ -1,14 +1,7 @@
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px)  {
 
-
-    #conteudo_home {
-
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-
-    }
+    
 
     nav {
 
@@ -32,6 +25,12 @@
 
     }
 
+    #home {
+
+        background: linear-gradient(to bottom left , #4C4C4C, #828282);
+
+    }
+
     #conteudo_alinhado {
 
         display: flex;
@@ -50,44 +49,30 @@
 
     #oculos {
 
-    position: absolute;
-    top: 20%;
-    right: 10%;
-    left: unset;
-    transform: rotate(-15deg);
-    
+        position: absolute;
+        display: block;
+        left: 25%;
+        top: 10%;
 
     }
 
     #oculos img {
 
-    width: 60%;
+        width: 80%;
 
     }
 
+
     #slogan {
 
-        margin-top: 15%;
+        margin-top: 5%;
         margin-left: 40%;
-        height: 40%;
 
     }
 
     #slogan h2 {
 
         font-size: 5em;
-
-    }
-
-    #slogan p {
-
-        font-size: 2em;
-
-    }
-
-    #botao_azul {
-
-        height: 20vh;
 
     }
 
