@@ -208,7 +208,7 @@ nav a:hover {
 
 /*Titulos*/
 #comentarios { 
-    background: linear-gradient(to bottom, #c9c9c9, #E4E4E4 94%);
+    background: linear-gradient(to bottom, #fffefe, #bee9f2 95%);
     width: 100%;
     height: 100vh;
 }
@@ -222,11 +222,11 @@ nav a:hover {
 }
 
 #titulo_comentario h1{ 
-    color: white    ;
+    color: rgb(175, 175, 175);
     font-size: 6vh;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+ 
     justify-content: center;
     flex-direction: row;
 }
@@ -244,12 +244,13 @@ nav a:hover {
     margin-bottom: 5px;
     justify-content: center;
     flex-direction: row;
+    font-weight: 900;
 }
 
 
 
 #titulo_comentario h3{
-    color: #3a3a3a;
+    color: rgb(175, 175, 175);  
     font-size: 25px;
     font-weight: 500;
     text-align: center;
@@ -291,7 +292,7 @@ nav a:hover {
     margin-top: 10px;
     margin-bottom: 10px ;
     border-radius: 20px;
-     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
 }
 
 #fila2_comentarios {
@@ -329,6 +330,55 @@ nav a:hover {
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
 }
 
+#fila2_comentarios .div_info2 { 
+    background-color: white;
+    width: 25%;
+    height: 215px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
+    display: none;
+}
+
+#fila3_comentarios {
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    flex-direction: row;
+    gap: 10px;
+    display: block;
+}
+
+#fila3_comentarios .div_feedback {
+    background-color: white;
+    width: 45%;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
+    float: left;
+}
+
+#fila3_comentarios .div_info {
+    background-color: white;
+    width: 40%;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
+    float: left;
+    display: block;
+}
+
+
+
 .div_feedback img{
     width: 40px;
     height: 40px;
@@ -357,6 +407,13 @@ nav a:hover {
   /*Comentario grande - div-grande*/
 
 .div_info img { /*div-foto fundo-info*/
+    width: 100%;
+    height: 87px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+}
+
+.div_info2 img { 
     width: 100%;
     height: 87px;
     border-top-left-radius:20px ;
