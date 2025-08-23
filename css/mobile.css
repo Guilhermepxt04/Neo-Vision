@@ -213,6 +213,7 @@ nav a:hover {
 
 /*Titulos*/
 #comentarios { 
+
     background: linear-gradient(to bottom, #fffefe, #bee9f2 95%);
     width: 100%;
     height: 100vh;
@@ -224,14 +225,16 @@ nav a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 10%;
 }
 
 #titulo_comentario h1{ 
-    color: rgb(175, 175, 175);
+
+    color: rgb(199, 199, 199)    ;
     font-size: 6vh;
     text-align: center;
     margin-top: 5px;
- 
+    margin-bottom: 5px;
     justify-content: center;
     flex-direction: row;
 }
@@ -255,12 +258,14 @@ nav a:hover {
 
 
 #titulo_comentario h3{
-    color: rgb(175, 175, 175);  
+
+    color: #afafaf;
     font-size: 25px;
     font-weight: 500;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    
     
 }
 
@@ -275,6 +280,7 @@ nav a:hover {
     align-items: flex-start; /* alinha em cima */
     flex-direction: row;/* lado a lado */
     gap: 10px;      /* espaço entre os blocos */
+    margin-top: 3vh;
     
 }
 
@@ -335,54 +341,45 @@ nav a:hover {
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
 }
 
-#fila2_comentarios .div_info2 { 
-    background-color: white;
-    width: 25%;
-    height: 215px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px ;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
-    display: none;
-}
 
 #fila3_comentarios {
-    
     width: 100%;
     height: auto;
+    margin-top: 10px;
     display: flex;
     justify-content: flex-start; 
     align-items: flex-start; 
     flex-direction: row;
     gap: 10px;
-    display: block;
+
+
 }
 
 #fila3_comentarios .div_feedback {
     background-color: white;
     width: 50%;
-    height: 170px;
+    height: 175px;
     margin-left: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
-    float: left;
+
 }
 
 #fila3_comentarios .div_info {
     background-color: white;
     width: 35%;
-    height: 170px;
-    margin-left: 20px;
+    height: 175px;
+    margin-left: 10px;
     margin-top: 10px;
+    margin-bottom: 10px ;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
-    float: left;
-    display: block;
 }
 
 
+/*Dentro das divis*/
 
 .div_feedback img{
     width: 40px;

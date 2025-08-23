@@ -95,14 +95,9 @@
         height: 100vh;
     }
 
-    #titulo_comentario {
     
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
 
+<<<<<<< HEAD
    #titulo_comentario h1{ 
     color: rgb(175, 175, 175);
     font-size: 6vh;
@@ -149,72 +144,12 @@
         align-items: flex-start; /* alinha em cima */
         flex-direction: row;
         gap: 10px;/* espaço entre os blocos */
+=======
 
-    }
 
-    #fila1_comentarios .div_feedback {
-        background-color: white;
-        width: 40%;
-        height: 215px;
-    
-    }
 
-    #fila1_comentarios .div_info {
-        background-color: white;
-        width: 25%;
-        height: 215px;
-        float: left;
-           
-    }
+>>>>>>> comentarios2.2
 
-   #fila1_comentarios .div_feedback2 {
-        background-color: white;
-        width: 25%;
-        height: 215px;
-        color: black;
-        margin-left:10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border-radius: 20px;
-        display: inline-block;
-   }
-
-   #fila2_comentarios {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: flex-start; /* alinha no início */
-        align-items: flex-start; /* alinha em cima */
-        flex-direction: row;/* lado a lado */
-        gap: 10px;  
-   }
-  
-   #fila2_comentarios .div_feedback {
-        background-color: white;
-        width: 40%;
-        height: 215px;
-    
-    }
-
-    #fila2_comentarios .div_info {
-        background-color: white;
-        width: 25%;
-        height: 215px;
-        float: left;
-           
-    }
-
-    #fila2_comentarios .div_feedback2 {
-        background-color: white;
-        width: 25%;
-        height: 215px;
-        color: black;
-        margin-left:10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border-radius: 20px;
-        display: inline-block;
-   }
 
     #fila3_comentarios .div_feedback {
     display: none;
