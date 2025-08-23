@@ -8,7 +8,7 @@
         background-color: #68CBE0;
         display: flex;
         flex-direction: column;
-        padding: 10px;
+        justify-content: space-around;
     }
 
     #titulo_faleconosco{
@@ -35,7 +35,7 @@
     #conteudo_formulario{
         position: relative;
         width: 75%;
-        height: 666PX;
+        height: 666px;
         margin: auto;
         background-color: #fff;
         box-shadow: 4px 2px 4px #4C4C4C;
@@ -125,7 +125,6 @@
         height: 298px;
         border-radius: 10px 10px 10px 10px;
         background-color: #000;
-        float: left;
         display: block;
     }
     .imagem_formulario{

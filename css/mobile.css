@@ -426,8 +426,13 @@ nav a:hover {
 #fale_conosco{
     position: relative;
     width: 100%;
-    height: 600px;
+    height: auto;
     background-color: #68CBE0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #titulo_faleconosco{
@@ -458,7 +463,7 @@ nav a:hover {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 20px;
-    padding-top: 5px ;
+    padding-top: 5px;
 
 }
 #conteudo_formulario h2{
@@ -476,12 +481,30 @@ nav a:hover {
     display: none;
 }
 #icones_contatos_preto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#alinhamento_logos_formulario{
     width: 100%;
     height: 62px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 
+}
+.logos_pretos{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 .img_icone{
     width: 100%;
@@ -544,6 +567,9 @@ nav a:hover {
     font-size: 20px;
 }
 #container_imagem_formulario{
+    display: none;
+}
+#container_imagem_desktop{
     display: none;
 }
 .imagem_formulario{
