@@ -298,15 +298,11 @@
         font-weight: 500;
     }
 
-    #final_final span {
-       color: #ff0000 ;
-        width: 100%;
-        font-size: 4vh;
-        text-align: center;
-        margin-bottom: 5px;
-        justify-content: center;
-        flex-direction: row;
-        font-weight: 100;
+    
+    #texto_final span { 
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 8vh;
     }
 
     
