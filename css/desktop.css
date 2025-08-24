@@ -87,6 +87,50 @@
 
 
 
+                                            /*PÁGINA DO VÍDEO*/
+
+
+#tela_video {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(to bottom , #6f6f6f, #9d9d9d);
+        margin-top: -5%;
+}
+
+
+#tecnologia_que_cuida{
+        width: 100%;
+        height: 40px;
+        margin-top: 1%;
+        margin-bottom: 1.5%;
+        margin-left: 9%;
+}
+
+#tecnologia_que_cuida h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #3ebcf7;
+}
+
+#texto_video{
+        width: 100%;
+        height: 100%;
+        margin-left: 9.5%;
+}
+
+#texto_video p {
+    font-size: 40px;
+    color: #eeeeee;
+    margin-right: 65%;
+    font-weight: 300;
+}
+
+#campo_video_oculos {
+        width: 90%;
+        height: 100vh; 
+    }
+
+                                                /**/
 
 /*Titulos*/
     #comentarios { 
@@ -536,54 +580,5 @@
         display: block;
     }
 
-
-
-                                            /*PÁGINA DO VÍDEO*/
-
-
-#tela_video {
-        width: 100%;
-        height: auto;
-        background-color: #68CBE0;
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-        justify-content: center; 
-        padding: 20px 0px; 
-        padding-top: 50px;
-        padding-bottom: 150px;
-}
-
-
-#tecnologia_que_cuida{
-        width: 100%;
-        height: 40px;
-        margin-top: 100px;
-        margin-bottom: 30px;
-        margin-left: 9.5%;
-}
-
-#tecnologia_que_cuida h1 {
-    font-size: 64px;
-    font-weight: bold;
-}
-
-#texto_video{
-        width: 100%;
-        height: 100%;
-        margin-left: 9.5%;
-        margin-bottom: 22px;
-        margin-top: 2px;
-}
-
-#texto_video p {
-    font-size: 50px;
-    color: #000;
-}
-
-#campo_video_oculos {
-        width: 90%;
-        height: 750px; 
-    }
 
 }
