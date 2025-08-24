@@ -655,8 +655,6 @@ footer {
     }
 
     .footer-container {
-      max-width: 1279px;
-      min-width: 820px;
       width: 100%;
       margin: auto;
       display: grid;
@@ -689,6 +687,7 @@ footer {
     }
 
     .footer-column ul li {
+      font-size: 15px;  
       margin: 8px 0;
     }
 
