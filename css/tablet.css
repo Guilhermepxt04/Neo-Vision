@@ -137,7 +137,7 @@
         color: rgb(175, 175, 175);
         font-size: 6vh;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 0.1vh;
         margin-bottom: 5px;
         justify-content: center;
         flex-direction: row;
@@ -164,7 +164,7 @@
 
     #titulo_comentario h3 {
         color: rgb(175, 175, 175);
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 500;
         text-align: center;
         margin-left: 10px;
@@ -175,15 +175,14 @@
     #fila1_comentarios {
 
         width: 100%;
+        margin-top: 1vh;
         height: auto;
         display: flex;
         justify-content: flex-start;
-        /* alinha no início */
         align-items: flex-start;
-        /* alinha em cima */
         flex-direction: row;
         gap: 10px;
-        /* espaço entre os blocos */
+        
 
     }
 
@@ -211,12 +210,14 @@
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 20px;
-        box-shadow: 5px, 5px, 10px rgb(0, 0, 0, 0.385);
+
+        box-shadow: 10px, 10px, 10px rgb(0,0,0,0.385);
         display: block;
-    }
+   }
 
     #fila2_comentarios {
         width: 100%;
+        margin-top: 25px;
         height: auto;
         display: flex;
         justify-content: flex-start;
@@ -247,14 +248,11 @@
         background-color: white;
         width: 25%;
         height: 215px;
-        color: black;
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
         border-radius: 20px;
-        box-shadow: 5px, 5px, 10px rgb(0, 0, 0, 0.385);
-        display: block;
-    }
+        margin-top: 10px;
+        margin-left: 10px;
+   }
+
 
     #fila3_comentarios {
 
@@ -265,7 +263,7 @@
         align-items: flex-start;
         flex-direction: row;
         gap: 10px;
-        display: block;
+        display: none;
     }
 
     #fila3_comentarios .div_feedback {
@@ -282,7 +280,7 @@
 
     .div_feedback2 img {
         width: 40px;
-        height: 40px;
+        height: 20px;
         display: block;
     }
 
