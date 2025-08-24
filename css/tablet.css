@@ -521,4 +521,49 @@
         display: none;
     }
 
+                                            /*PÁGINA DO VÍDEO*/
+
+
+#tela_video {
+        width: 100%;
+        height: auto;
+        background-color: #68CBE0;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        padding: 20px 0px; 
+        padding-bottom: 150px;
+}
+
+#tecnologia_que_cuida {
+        width: 100%;
+        height: 40px;
+        margin-top: 100px;
+        margin-bottom: 60px;
+        margin-left: 9.5%;
+}
+
+#tecnologia_que_cuida h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+#texto_video{
+        width: 100%;
+        height: 100%;
+        margin-left: 9.5%;
+        margin-bottom: 68px;
+}
+
+#texto_video p {
+    font-size: 40px;
+    color: #000;
+}
+
+#campo_video_oculos {
+        width: 90%;
+        height: 750px; 
+    }
+
 }
