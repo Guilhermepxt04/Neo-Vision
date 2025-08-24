@@ -444,16 +444,6 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-.div_feedback .comentario2 { 
-    color: #000;
-    display: flex;
-    justify-content: left;
-    margin-left: 8px;
-    margin-top: 10px;
-    font-size: 12px;
-    margin-right: 5px;
-   
-}
 
 
 .div_info h1 {
@@ -476,20 +466,15 @@ nav a:hover {
  .div_feedback2 img{ 
         width: 40px;
         height: 40px;
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 100%;
         display: none;
    }
 
-   .estrelas2 {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 65px;
+  .div_feedback2 .estrelas {
     display: none;
-    
   }
-
-   
-    
-   
   
 
 
