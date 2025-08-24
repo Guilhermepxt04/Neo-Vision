@@ -95,126 +95,92 @@
         height: 100vh;
     }
 
-    #titulo_comentario {
-    
-        width: 100%;
+
+
+    #titulo_comentario h1 {
+        font-size: 8vh;
+    }
+
+    #titulo_comentario span {
+        font-size: 8vh;
+    }
+
+    #titulo_comentario h3 { 
+        font-size: 45px;
+    }
+
+    #fila1_comentarios {
+        margin-bottom: 30px;
+    }
+
+    #fila2_comentarios {
+        margin-bottom: 0px;
+    }
+
+    #fila1_comentarios .div_feedback{
+        width: 35%;
+        height: 230px;
+    }
+
+    #fila1_comentarios {
+        display: flex;
+        justify-content: center ;
+    }
+
+    #fila2_comentarios {
         display: flex;
         justify-content: center;
-        flex-direction: column;
-    }
-
-    #titulo_comentario h1{ 
-    color: rgb(175, 175, 175);
-    font-size: 6vh;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    justify-content: center;
-    flex-direction: row;
-}
-#Titulo_principal {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-}
-
-#Titulo_principal span{ 
-    color: #68CBE0;
-    font-size: 6vh;
-    text-align: center;
-    margin-bottom: 5px;
-    justify-content: center;
-    flex-direction: row;
-    font-weight: 900;
-}
-
-
-
-#titulo_comentario h3{
-    color: rgb(175, 175, 175);  
-    font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    
-}
-    #fila1_comentarios {
-    
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: flex-start; /* alinha no início */
-        align-items: flex-start; /* alinha em cima */
+        align-items: center;
         flex-direction: row;
-        gap: 10px;/* espaço entre os blocos */
+        padding-right: 20px;
 
     }
 
-    #fila1_comentarios .div_feedback {
+    #fila1_comentarios .div_feedback2 {
         background-color: white;
-        width: 40%;
-        height: 215px;
-    
-    }
-
-    #fila1_comentarios .div_info {
-        background-color: white;
-        width: 25%;
-        height: 215px;
-        float: left;
-           
-    }
-
-   #fila1_comentarios .div_feedback2 {
-        background-color: white;
-        width: 25%;
-        height: 215px;
-        color: black;
-        margin-left:10px;
+        display: block;
+        width: 32%;
+        height: 230px;
+        margin-left: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 20px;
-        display: inline-block;
-   }
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
+    }
 
-   #fila2_comentarios {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: flex-start; /* alinha no início */
-        align-items: flex-start; /* alinha em cima */
-        flex-direction: row;/* lado a lado */
-        gap: 10px;  
-   }
-  
-   #fila2_comentarios .div_feedback {
-        background-color: white;
-        width: 40%;
-        height: 215px;
-    
+    #fila1_comentarios .div_info { 
+        width: 25%;
+        height: 230px;
     }
 
     #fila2_comentarios .div_info {
-        background-color: white;
         width: 25%;
-        height: 215px;
-        float: left;
-           
+        height: 230px;
     }
 
-    #fila2_comentarios .div_feedback2 {
+    #fila2_comentarios .div_info2{ 
         background-color: white;
         width: 25%;
-        height: 215px;
-        color: black;
-        margin-left:10px;
+        height: 230px;
+        display: block;
+        margin-left: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 20px;
-        display: inline-block;
-   }
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
+    }
+
+
+    #fila2_comentarios .div_feedback {
+        width: 40%;
+        height: 230px;
+    }
+
+    #fila2_comentarios .div_info { 
+        width: 25%;
+
+    }
+
 
     #fila3_comentarios .div_feedback {
     display: none;
@@ -224,7 +190,124 @@
     display: none;
     }
 
+    .div_feedback img { 
+        width: 70px;
+        height: 70px;
+        border: 2px solid black;
+    }
 
+    .div_feedback2 img {
+        display: block;
+        width: 70px;
+        height: 70px;
+        float: left;
+    }
+
+    .div_info img {
+        height: 13vh;
+    }
+
+    .div_info2 img{
+        height: 13vh;
+    }
+
+    .div_info h1{
+        font-size: 50px;
+        margin-top: -5px;
+    }
+
+    .div_info p {
+        font-size: 30px;
+    }
+
+    .div_info2 h1 {
+        color: black;
+        text-align: center;
+        margin-top: -5px;
+        font-size: 50px;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .div_info2 p{
+        color: black;
+        text-align: center;
+        margin: 0px;
+        font-size: 30px;
+    }
+
+    .div_feedback .nome {
+        width: 100%;
+        display: flex;
+        font-size: 3vh;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .div_feedback .nome2 {
+        width: 100%;
+        display: flex;
+        font-size: 3vh;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .div_feedback2 .estrelas2 {
+        display: block;
+        color: black;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 95px;
+    }
+
+    .div_feedback .estrelas {
+        font-size: 30px;
+        margin-left: 95px;
+        margin-top: 20px;
+    }
+
+    .div_feedback .comentario {
+        font-size: 23px;
+        margin-left: 20px;
+    }
+
+    .div_feedback2 .nome {
+        color: black;
+        width: 100%;
+        display: flex;
+        font-size: 3vh;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .div_feedback2 .comentario {
+        color: black;
+        width: 100%;
+        display: flex;
+        font-size: 2.2vh;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    #texto_final { 
+        display: block;
+    }
+    
+    #texto_final h1{
+        font-size: 8vh;
+        font-weight: 500;
+    }
+
+    #final_final span {
+       color: #ff0000 ;
+        width: 100%;
+        font-size: 4vh;
+        text-align: center;
+        margin-bottom: 5px;
+        justify-content: center;
+        flex-direction: row;
+        font-weight: 100;
+    }
 
     
 
@@ -470,6 +553,7 @@
         padding-top: 50px;
         padding-bottom: 150px;
 }
+
 
 #tecnologia_que_cuida{
         width: 100%;
