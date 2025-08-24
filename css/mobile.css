@@ -231,15 +231,15 @@ nav a:hover {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10%;
+   margin-top: 3vh ;
 }
 
 #titulo_comentario h1{ 
 
     color: rgb(199, 199, 199)    ;
-    font-size: 6vh;
+    font-size: 4vh;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0.1px;
     margin-bottom: 5px;
     justify-content: center;
     flex-direction: row;
@@ -253,7 +253,7 @@ nav a:hover {
 
 #Titulo_principal span{ 
     color: #68CBE0;
-    font-size: 6vh;
+    font-size: 4vh;
     text-align: center;
     margin-bottom: 5px;
     justify-content: center;
@@ -286,7 +286,7 @@ nav a:hover {
     align-items: flex-start; /* alinha em cima */
     flex-direction: row;/* lado a lado */
     gap: 10px;      /* espaço entre os blocos */
-    margin-top: 3vh;
+    
     
 }
 
@@ -347,11 +347,29 @@ nav a:hover {
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
 }
 
+#fila2_comentarios .div_info2 { 
+
+    display: none;
+  }
+
+.div_feedback2 .estrelas2 {
+    display: none;
+}
+
+.div_feedback2 .nome {
+    display: none;
+}
+
+.div_feedback2 .comentario {
+    display: none;
+}
+
+
 
 #fila3_comentarios {
-    width: 100%;
+    width: 100%;  
     height: auto;
-    margin-top: 10px;
+   
     display: flex;
     justify-content: flex-start; 
     align-items: flex-start; 
@@ -382,6 +400,39 @@ nav a:hover {
     margin-bottom: 10px ;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
+}
+
+#texto_final { 
+    width: 100%;
+    height:100px;
+    display: flex;
+    display: none;
+    justify-content: center;
+    flex-direction: row;
+    
+  }
+
+#texto_final h1{ 
+    width: 100%;
+    margin-top: 25px;
+    font-size: 4vh;
+    color: #1bc1e3;
+    text-align: center;
+    margin-bottom: 5px;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: 900;
+}
+
+#texto_final span { 
+    color: #bee9f2 ;
+    width: 100%;
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 5px;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: 100;
 }
 
 
@@ -430,7 +481,7 @@ nav a:hover {
 
 
 .div_feedback .nome {
-    color: black;
+    color: rgb(0, 0, 0);
     margin-top: 15px;
     margin-left: 10px;
 }
@@ -450,16 +501,6 @@ nav a:hover {
     margin-bottom: 15px;
 }
 
-.div_feedback .comentario2 { 
-    color: #000;
-    display: flex;
-    justify-content: left;
-    margin-left: 8px;
-    margin-top: 10px;
-    font-size: 12px;
-    margin-right: 5px;
-   
-}
 
 
 .div_info h1 {
@@ -482,15 +523,14 @@ nav a:hover {
  .div_feedback2 img{ 
         width: 40px;
         height: 40px;
+        margin-left: 15px;
+        margin-top: 10px;
+        border-radius: 100%;
         display: none;
    }
 
-   .estrelas2 {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 65px;
+  .div_feedback2 .estrelas {
     display: none;
-    
   }
 
 

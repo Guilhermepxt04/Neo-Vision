@@ -120,17 +120,24 @@
 
     /*Titulos*/
     #comentarios {
-        background: linear-gradient(to bottom, #fffefe, #3d4acc 114%);
+        background: linear-gradient(to bottom, #fffefe, #bee9f2 114%);
         width: 100%;
         height: 100vh;
     }
 
     #titulo_comentario {
-
+        padding-top:6vh ;
         width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    #Titulo_principal {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
     }
 
     #titulo_comentario h1 {
@@ -143,12 +150,6 @@
         flex-direction: row;
     }
 
-    #Titulo_principal {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        gap: 10px;
-    }
 
     #Titulo_principal span {
         color: #68CBE0;
@@ -202,16 +203,14 @@
     }
 
     #fila1_comentarios .div_feedback2 {
-        background-color: white;
+         background-color: white;
         width: 25%;
         height: 215px;
-        color: black;
         margin-left: 10px;
         margin-top: 10px;
         margin-bottom: 10px;
         border-radius: 20px;
-
-        box-shadow: 10px, 10px, 10px rgb(0,0,0,0.385);
+        box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
         display: block;
    }
 
@@ -244,25 +243,20 @@
 
     }
 
-    #fila2_comentarios .div_feedback2 {
-        background-color: white;
-        width: 25%;
-        height: 215px;
-        border-radius: 20px;
-        margin-top: 10px;
-        margin-left: 10px;
-   }
-
+    #fila2_comentarios .div_info2 { 
+    background-color: white;
+    width: 25%;
+    height: 215px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.385);
+    display: block;
+  }
 
     #fila3_comentarios {
 
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        flex-direction: row;
-        gap: 10px;
         display: none;
     }
 
@@ -276,24 +270,114 @@
 
 
     /*classes dentros das divs*/
-
-
     .div_feedback2 img {
-        width: 40px;
-        height: 20px;
+        width: 50px;
+        height: 50px;
+        display: block;
+        float: left;
+        
+    }
+
+    .div_feedback img {
+        width: 50px;
+        height: 50px;
+    }
+
+   .div_info img { 
+    height: 12vh;
+   }
+
+   .div_info2 img{
+    height: 12vh;
+   }
+   
+   .div_info2 h1{ 
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+   .div_info2 p{ 
+    color: black;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 25px;
+
+   }
+
+   .div_info h1 {
+    font-size: 45px;
+   }
+
+   .div_info p { 
+    font-size: 25px ;
+   }
+   
+
+   .div_feedback .nome {
+    font-size: 2vh;
+    margin-top: 10px;
+    margin-left: 10px;
+   }
+
+   .div_feedback .nome2 { 
+    font-size: 2vh;
+    margin-top: 10px;
+    margin-left: 15px;
+   }
+
+   .div_feedback2 .nome {
+    color: black;
+    font-size: 2vh;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    display: block;
+   }
+
+
+   .div_feedback .estrelas { 
+    font-size: 30px;
+    margin-left: 75px;
+   }
+
+   .div_feedback .comentario { 
+    font-size: 20px;
+    margin-left: 10px;
+   }
+
+   .div_feedback2 .comentario { 
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+    display: block;
+   }
+
+   .div_feedback2 .estrelas2 { 
+    font-size: 15px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    display: block;
+   }
+
+    #texto_final { 
         display: block;
     }
 
-    .estrelas2 {
-        font-size: 20px;
-        margin-top: 10px;
-        margin-left: 65px;
-        display: block;
-
+    #texto_final h1 {
+        font-size: 5vh;
+        font-weight: 500;
     }
-
-
-
+    
+    #texto_final span { 
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 5vh;
+    }
 
 
 
