@@ -382,7 +382,7 @@
 
 
 
-      /*Formulario Satisfacao*/
+    /*Formulario Satisfacao*/
 
     #titulo_faleconosco {
         display: flex;
@@ -466,7 +466,8 @@
         align-items: center;
         justify-content: space-around;
     }
-    #contatos_brancos_2{
+
+    #contatos_brancos_2 {
         position: relative;
         width: 90%;
         height: 30vh;
@@ -476,6 +477,7 @@
         align-items: center;
         justify-content: space-around;
     }
+
     .logos {
         position: relative;
         text-align: center;
@@ -519,7 +521,7 @@
 
     .form {
         position: relative;
-        width:100%;
+        width: 100%;
         font-size: 25px;
         font-weight: 500;
         display: flex;
@@ -590,6 +592,17 @@
         display: none;
     }
 
+    #button_fale_conosco:hover {
+        cursor: pointer;
+
+    }
+
+    #contatos_brancos_2:hover {
+        cursor: pointer;
+    }
+    #contatos_brancos_1:hover {
+        cursor: pointer;
+    }
     /*PÁGINA DO VÍDEO*/
 
     #tela_video {
@@ -638,11 +651,11 @@
     }
 
     .footer-container {
-      width: 100%;
-      margin: auto;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
     }
 
     .footer-left h2 {
@@ -670,8 +683,8 @@
     }
 
     .footer-column ul li {
-      margin: 8px 0;
-      font-size: 15px;
+        margin: 8px 0;
+        font-size: 15px;
     }
 
     .footer-column ul li a {

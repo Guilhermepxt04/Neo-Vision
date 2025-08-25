@@ -686,6 +686,14 @@ nav a:hover {
     border-radius: 4.556px;
     font-size: 20px;
 }
+#button_fale_conosco:hover{
+    cursor: pointer;
+    
+}
+#alinhamento_logos_formulario:hover{
+    cursor: pointer;
+}
+
 #container_imagem_formulario{
     display: none;
 }
