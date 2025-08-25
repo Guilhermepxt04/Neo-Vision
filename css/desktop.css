@@ -387,11 +387,10 @@
     #fale_conosco {
         position: relative;
         width: 100%;
-        height: auto;
+        height: 100vh;
         background-color: #68CBE0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     #titulo_faleconosco {
@@ -400,8 +399,7 @@
         align-items: center;
         justify-content: center;
         gap: 0.5%;
-        padding-top: 30px;
-        margin-bottom: 20px;
+        
     }
 
     #titulo_normal {
@@ -416,10 +414,9 @@
     }
 
     #conteudo_formulario {
-        position: relative;
         width: 90%;
-        height: 806px;
-        margin: auto;
+        height: 75vh;
+        margin-top: 1vh;
         background-color: #fff;
         box-shadow: 4px 2px 4px #4C4C4C;
         border-radius: 10px 10px 10px 10px;
@@ -429,8 +426,8 @@
         flex-direction: row;
         padding-left: 1%;
         padding-right: 1%;
-        padding-bottom: 20px;
-        padding-top: 40px;
+        
+        
     }
 
     #container_icones_imagem {
@@ -442,9 +439,9 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        font-size: 48px;
+        font-size: 35px;
         text-align: center;
-        margin-bottom: 50px;
+        
         float: left;
     }
 
@@ -471,6 +468,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        
+        padding-top: 10vh;
     }
 
     .logos_pretos {
@@ -491,7 +490,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        font-size: 20px;
+        font-size: 2vh;
         padding-top: 20px;
         text-align: center;
         font-weight: 500;
@@ -500,6 +499,7 @@
 
     #icones_contatos_preto h3 {
         color: #000;
+        background-color: #fff;
         padding-bottom: 40px;
         font-size: 48px;
 
@@ -521,7 +521,8 @@
         display: block;
         position: relative;
         width: 100%;
-        height: 618px;
+        height: 50vh;
+        object-fit:contain;
         border-radius: 10px 10px 10px 10px;
         background-color: #000;
     }
@@ -552,7 +553,7 @@
     .form {
         position: relative;
         width: 100%;
-        font-size: 32px;
+        font-size: 25px;
         font-weight: 500;
         display: flex;
         flex-direction: column;
@@ -594,7 +595,6 @@
     .form textarea {
         height: 120px;
         width: 97%;
-        resize: vertical;
     }
 
     .form input:hover,

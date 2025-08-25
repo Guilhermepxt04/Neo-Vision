@@ -382,16 +382,7 @@
 
 
 
-    /*Formulario Satisfacao*/
-    #fale_conosco {
-        position: relative;
-        width: 100%;
-        height: auto;
-        background-color: #68CBE0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+      /*Formulario Satisfacao*/
 
     #titulo_faleconosco {
         display: flex;
@@ -399,7 +390,7 @@
         align-items: center;
         justify-content: center;
         gap: 5px;
-        padding-top: 30px;
+        padding: 0;
         margin-bottom: 20px;
     }
 
@@ -416,8 +407,8 @@
 
     #conteudo_formulario {
         position: relative;
-        width: 75%;
-        height: 666px;
+        width: 60%;
+        height: 60vh;
         margin: auto;
         background-color: #fff;
         box-shadow: 4px 2px 4px #4C4C4C;
@@ -425,11 +416,9 @@
         display: flex;
         align-items: start;
         justify-content: start;
-        flex-direction: column;
         padding-left: 5%;
         padding-right: 5%;
-        padding-bottom: 20px;
-        padding-top: 40px;
+        margin-top: 0;
     }
 
     #container_icones_imagem {
@@ -443,7 +432,7 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        font-size: 31.5px;
+        font-size: 28px;
         text-align: center;
         margin-bottom: 50px;
     }
@@ -455,41 +444,38 @@
 
     #container_contatos {
         position: relative;
-        margin-left: 7.5%;
-        width: 50%;
-        height: 298px;
+        margin-left: 15%;
+        width: 40%;
+        height: 30vh;
         border-radius: 0 0 0 10px;
         background-color: #000;
         box-shadow: 4px 2px 4px #4C4C4C;
         display: flex;
         align-items: start;
-        justify-content: start;
         flex-direction: column;
         float: left;
     }
 
     #contatos_brancos_1 {
         position: relative;
-        width: 100%;
-        height: 90px;
+        width: 90%;
+        height: 30vh;
         margin: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
     }
-
-    #contatos_brancos_2 {
+    #contatos_brancos_2{
         position: relative;
-        width: 100%;
-        height: 90px;
+        width: 90%;
+        height: 30vh;
         margin: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
     }
-
     .logos {
         position: relative;
         text-align: center;
@@ -505,13 +491,13 @@
     .info {
         position: relative;
         display: flex;
-        font-size: 23.9px;
+        font-size: 20.9px;
     }
 
     #container_imagem_formulario {
         position: relative;
-        width: 35%;
-        height: 298px;
+        width: 30%;
+        height: 30vh;
         border-radius: 10px 10px 10px 10px;
         background-color: #000;
         display: block;
@@ -533,12 +519,13 @@
 
     .form {
         position: relative;
-        width: 100%;
-        font-size: 31px;
+        width:100%;
+        font-size: 25px;
         font-weight: 500;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        height: 40vh;
     }
 
     .form label,
@@ -550,8 +537,8 @@
     }
 
     .form input {
-        height: 60px;
-        width: 98%;
+        height: 10vh;
+        width: 97%;
     }
 
     .form label {
@@ -565,7 +552,6 @@
         font: inherit;
         margin-bottom: 1rem;
         border-radius: 4.557px;
-
         border: 1px solid transparent;
         background-color: #eaeaea;
         color: #000;
@@ -574,7 +560,7 @@
     }
 
     .form textarea {
-        height: 120px;
+        height: 20vh;
         width: 98%;
         resize: vertical;
     }
@@ -590,10 +576,10 @@
 
     #button_fale_conosco {
         width: 100%;
-        height: 96px;
+        height: 25vh;
         background-color: #000;
         border-radius: 4.556px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #button_fale_conosco img {
