@@ -1,6 +1,19 @@
 @media (min-width: 820px) and (max-width: 1279px) {
 
     /*Home*/
+
+    #nav_home {
+
+        width: 100%;
+
+    }
+
+    #nav_home p {
+
+        color: #000;
+
+    }
+    
     #home {
 
         background: linear-gradient(to bottom left, #4C4C4C, #828282);

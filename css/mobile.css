@@ -32,13 +32,13 @@ main {
 }
 
 
-nav {
+#nav_home {
 
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 5px;
     width: 100%;
-    background-color: #4c4c4c;
+    border-radius: 24px;
+    background-color: #D2CFED;
     height: 5vh;
     display: flex;
     justify-content: space-around;
@@ -48,21 +48,22 @@ nav {
 
 }
 
-nav p { 
+#nav_home img { 
 
     display: none;
 
 }
 
-nav a {
+#nav_home a {
 
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bolder;
+    color: #000;
 
 }
 
-nav a:hover {
+#nav_home a:hover {
 
     color: #000;
     transition: 1s all;

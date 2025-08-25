@@ -2,24 +2,26 @@
 
 
 
-    nav {
+    #nav_home {
 
         justify-content: flex-end;
+        width: 100%;
 
     }
 
-    nav a {
+    #nav_home a {
 
         margin-right: 2%;
 
     }
 
-    nav p {
+    #nav_home img {
 
+        color: #000;
         position: absolute;
         display: block;
         left: 10%;
-        font-size: 1.5em;
+        width: 10%;
         font-weight: bolder;
 
     }
