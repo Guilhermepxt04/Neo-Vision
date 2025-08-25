@@ -373,24 +373,12 @@
         font-size: 8vh;
         font-weight: 500;
     }
-
-<<<<<<< HEAD
-    #final_final span {
-        color: #ff0000;
-        width: 100%;
-        font-size: 4vh;
-        text-align: center;
-        margin-bottom: 5px;
-        justify-content: center;
-        flex-direction: row;
-        font-weight: 100;
-=======
     
     #texto_final span { 
         color: rgb(255, 255, 255);
         font-weight: 500;
         font-size: 8vh;
->>>>>>> aec58a9fa43cd2743f6dab8e0742039a6b7b25c1
+
     }
 
 
