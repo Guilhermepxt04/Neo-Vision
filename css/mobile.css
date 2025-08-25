@@ -780,52 +780,52 @@ footer {
     gap: 30px;
 }
 
-.footer-left h2 {
+.footer-esquerda h2 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #3aa0ff;
 }
 
-.footer-left p {
+.footer-esquerda p {
     font-size: 14px;
     color: #ccc;
     line-height: 1.6;
 }
 
-.footer-column h4 {
+.footer-coluna h4 {
     font-size: 16px;
     margin-bottom: 15px;
     color: #fff;
 }
 
-.footer-column ul {
+.footer-coluna ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.footer-column ul li {
+.footer-coluna ul li {
     margin: 8px 0;
 }
 
-.footer-column ul li a {
+.footer-coluna ul li a {
     color: #bbb;
     text-decoration: none;
     font-size: 14px;
     transition: 0.3s;
 }
 
-.footer-column ul li a:hover {
+.footer-coluna ul li a:hover {
     color: #3aa0ff;
 }
 
-.footer-column ul li p {
+.footer-coluna ul li p {
     color: #bbb;
     font-size: 14px;
     margin: 0;
 }
 
-.footer-bottom {
+.footer-copyright {
     margin-top: 30px;
     border-top: 1px solid #333;
     padding-top: 15px;
@@ -835,12 +835,12 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer-bottom p {
+.footer-copyright p {
     font-size: 13px;
     color: #777;
 }
 
-.social-icons a {
+.icones-sociais a {
     margin-left: 10px;
     display: inline-block;
     color: #bbb;
@@ -848,11 +848,11 @@ footer {
     transition: 0.3s;
 }
 
-.social-icons a:hover {
+.icones-sociais a:hover {
     color: #3aa0ff;
 }
 
-.social-icons img {
+.icones-sociais img {
     width: 25px;
     height: 25px;
 }
